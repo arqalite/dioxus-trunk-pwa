@@ -1,0 +1,40 @@
+{
+  "name": "Dioxus PWA w/ Trunk",
+  "icons": [
+    {
+      "src": "/img/logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/logo_512.png",
+      "type": "image/png",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "short_name": "Dioxus PWA w/ Trunk",
+  "description": "Example app for PWA functionality with Dioxus and Trunk.",
+  "dir": "ltr",
+  "lang": "en",
+  "orientation": "portrait",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "categories": [
+    "utilities"
+  ]
+}
